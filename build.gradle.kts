@@ -25,6 +25,10 @@ tasks {
     compileTestKotlin {
         kotlinOptions.jvmTarget = "1.8"
     }
+
+    runIde {
+        jvmArgs("--add-exports", "java.base/jdk.internal.vm=ALL-UNNAMED")
+    }
 }
 tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     changeNotes("""

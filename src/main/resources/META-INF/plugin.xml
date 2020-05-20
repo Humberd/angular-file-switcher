@@ -18,5 +18,9 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="FileSwitchAction" class="FileSwitchAction" text="FileSwitchAction"
+                description="File Switch between component files">
+            <keyboard-shortcut keymap="$default" first-keystroke="alt D"/>
+        </action>
     </actions>
 </idea-plugin>
