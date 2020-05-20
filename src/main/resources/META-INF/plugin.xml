@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>org.example.angular-file-switcher</id>
+    <name>Angular file switcher</name>
+    <vendor email="humberd.dev@gmail.com">Humberd</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin hefre.<br>
+    <em>most HTML tags may fbe used</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
